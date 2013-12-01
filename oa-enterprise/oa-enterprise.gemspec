@@ -2,7 +2,7 @@
 require File.expand_path('../lib/omniauth/version', __FILE__)
 
 Gem::Specification.new do |gem|
-  gem.add_dependency 'addressable', '~> 2.2.6'
+  gem.add_dependency 'addressable', '>= 2.2.6'
   gem.add_dependency 'net-ldap', '~> 0.2.2'
   gem.add_dependency 'nokogiri', '~> 1.5.0'
   gem.add_dependency 'oa-core', OmniAuth::Version::STRING
